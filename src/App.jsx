@@ -60,7 +60,7 @@ const App = () => {
   };
 
   const removeItem = (id) => {
-    const c = window.confirm("Are you sure to empty the list?");
+    const c = window.confirm("Are you sure to remove the item?");
     if (c) {
       setRedAlert(true);
       showAlert("Item Removed");
